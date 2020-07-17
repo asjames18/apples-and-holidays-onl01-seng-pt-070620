@@ -19,7 +19,6 @@ holiday_supplies[:spring][:memorial_day]
   #   }
   # }
   # return the second element in the 4th of July array
-holiday_supplies
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
