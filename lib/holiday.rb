@@ -34,6 +34,8 @@ end
 
 
 def add_supply_to_memorial_day(holiday_hash, supply)
+  holiday_supplies{}
+  holiday_supplies << :memorial_day 
 
 
 end
