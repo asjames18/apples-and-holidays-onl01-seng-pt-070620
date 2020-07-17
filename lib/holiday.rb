@@ -36,7 +36,7 @@ end
 def add_supply_to_memorial_day(holiday_hash, supply)
   holiday_supplies{}
   holiday_supplies[:summer] << :memorial_day
-  holiday_supplies[:summer][:memorial] << 
+  holiday_supplies[:summer][:memorial] << "Watermelon"
 
 holiday_supplies
 end
