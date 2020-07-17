@@ -2,7 +2,7 @@ require 'pry'
 
 def second_supply_for_fourth_of_july(holiday_hash)
 holiday_supplies[:spring][:memorial_day] 
-holiday_supplies[:spring][:memorial_day].flatten
+holiday_supplies[:spring][:memorial_day].flatten.min
   # given that holiday_hash looks like this:
   # {
   #   :winter => {
